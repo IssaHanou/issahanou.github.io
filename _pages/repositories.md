@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Overview of public repositories.
 nav: true
 nav_order: 3
 ---
@@ -33,7 +33,7 @@ nav_order: 3
 {% endif %}
 {% endif %}
 
-## GitHub Repositories
+## Repositories
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -42,3 +42,20 @@ nav_order: 3
   {% endfor %}
 </div>
 {% endif %}
+
+{% if site.data.repositories.gitlab_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.gitlab_repos %}
+    {% include repository/repo_gitlab.html repository=repo %}
+  {% endfor %}
+</div>
+
+<div class="repo p-2 text-center">
+  <a href="https://gitlab.com/issahanou/hao">
+    <img class="repo-img-dark w-100" alt="issahanou/HAO" src="../assets/img/HAO_img.png">
+  </a>
+</div>
+
+{% endif %}
+
+

@@ -1,6 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ICAPS":
+  url: https://www.icaps-conference.org/
+  color: "#f5821f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TU Delft":
+  url: https://repository.tudelft.nl/
+  color: "#00A6D6"
