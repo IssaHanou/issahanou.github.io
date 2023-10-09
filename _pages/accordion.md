@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /accordion/
-title: music
+title: Music
 description: Besides my PhD, I am a passionate accordion player.
 nav: true
 nav_order: 6
