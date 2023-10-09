@@ -5,29 +5,44 @@
       value: Issa Kalina Hanou
     - name: Date of Birth
       value: 25th July 1998
-    - name: Languages
-      value: English, Dutch
     - name: Summary
       value: A Dutch-born scientist in Computer Science, working on sustainable and  effective mobility.
 
+- title: Languages
+  type: list_groups
+  contents:
+    - category: English
+      items:
+        - name: Native speaker
+    - category: Dutch
+      items:
+        - name: Native speaker
+    - category: Spanish
+      items:
+        - name: Beginner
 
 - title: Experience
   type: time_table
   contents:
-    - title: PhD student in Algorithmics
+    - title: PhD student
       institution: Delft University of Technology, Delft, The Netherlands
+      department: Algorithmics
       year: 2022 - present
-      description:
-        - Position in the RAIL Lab
+      maindescription: Position in the RAIL Lab
     - title: Student Assistant
       institution: Delft University of Technology, Delft, The Netherlands
       year: 2017-2022
-      description:
-        - Helped with many courses, including NP-hard Problems, Complexity Theory and Algorithm Design
-
-    - title: Graduate Intern Developer
+      maindescription: Helped with many courses, including
+      items:
+        - Algorithms for NP-hard Problems
+        - Complexity Theory
+        - Algorithm Design
+        - Algorithms and Data Structures
+        - Introduction to Python Programming
+    - title: Graduate Intern
       institution: Nederlandse Spoorwegen
       year: 2022
+      
 
 
 - title: Education
@@ -39,10 +54,22 @@
       description:
         - Master in Computer Science with the Software Technology track
         - Focused on Algorithmics in my courses
+    - title: Practicum Musicae - Classical Accordion
+      institution: Royal Conservatory, The Hague, The Netherlands
+      year: 2023      
     - title: BSc Computer Science and Engineering
       institution: Delft University of Technology, Delft, The Netherlands
       year: 2020
 
+- title: Volunteer
+  type: time_table
+  contents:
+    - title: General Board member
+      institution: Haarlems Accordeon Orkest, Haarlem, The Netherlands
+      year: 2021-now
+      description: 
+      - Together with four other board members, I organize concerts, rehearsals, and trips for the orchestra.
+      - With the music committee, I am in charge of selecting new works to play and creating set lists for concerts.
 
 # - title: Honors and Awards
 #   type: time_table
