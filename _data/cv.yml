@@ -68,6 +68,10 @@
 - title: Volunteer
   type: time_table
   contents:
+    - title: Local Organization 
+      institution: BNAIC/BeNeLearn
+      year: 2023
+      description: BNAIC is a local, three-day AI conference for researchers in the Netherlands, Belgium and Luxembourg. I am part of the local organization team. 
     - title: General Board member
       institution: Haarlems Accordeon Orkest, Haarlem, The Netherlands
       year: 2021-now
