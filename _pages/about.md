@@ -6,7 +6,7 @@ subtitle: <a href='https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/softw
 
 profile:
   align: right
-  image: protrait_algo.jpg
+  image: portrait_algo.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Building 28, Office 4.East.180</p>
