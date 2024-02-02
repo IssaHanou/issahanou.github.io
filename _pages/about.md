@@ -8,8 +8,9 @@ profile:
   align: right
   image: portrait_algo.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Building 28, Office 4.East.180</p>
+  address: 
+    <p>Building 28</p>
+    <p>Office 4.East.180</p>
     <p>Van Maurik Broekmanweg 6</p>
     <p>Delft, The Netherlands</p>
 
