@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2023-06-09 16:11:00-0400
+year: 2023
 inline: false
 related_posts: false
 title: I graduated my conservatory study!

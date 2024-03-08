@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2023-11-10 16:11:00-0400
+year: 2023
 inline: true
 related_posts: false
 ---
