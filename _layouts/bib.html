@@ -24,6 +24,8 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
+        {%- elsif entry.tobepublished -%}
+          <abbr class="badge">To be published</abbr>
         {%- endif -%}
         </div>
 
