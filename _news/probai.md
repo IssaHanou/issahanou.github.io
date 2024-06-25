@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I attended the ProbAI summer school in Trondheim 
+I attended the ProbAI summer school in Trondheim.
