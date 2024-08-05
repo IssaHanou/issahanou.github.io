@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Learning Landmarks
-description: Project on learning landmarks for real-world problems written in PDDL
+description: Project on learning generalized landmarks for real-world problems written in PDDL
 img: 
 importance: 1
 category: work

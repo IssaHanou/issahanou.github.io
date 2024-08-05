@@ -303,7 +303,7 @@ blockquote {
 
 .news {
   th {
-    width: 10%;
+    width: 20%;
   }
 }
 
@@ -1071,5 +1071,25 @@ nav[data-toggle="toc"] {
     font-size: 0.875rem;
     margin-bottom: 0;
     padding-top: 0.5rem;
+  }
+}
+
+.theses {
+  .thesis {
+    .inprogress {
+      pointer-events: none;
+      cursor: default;
+    }
+
+    .keywords {
+      margin-top: 3px;
+      margin-bottom: 10px;
+
+      .keyword {
+        border: 1px solid gray;
+        pointer-events: none;
+        cursor: default;
+      }
+    }
   }
 }

@@ -2,7 +2,7 @@
 layout: page
 title: Instant Delay Replanning
 description: Collaboration project to instantly recover from delays in a multi-agent system.
-img: BanffTrain.jpg
+img: assets/img/BanffTrain.jpg
 importance: 1
 category: work
 related_publications: 

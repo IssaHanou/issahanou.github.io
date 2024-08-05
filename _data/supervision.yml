@@ -1,0 +1,102 @@
+- topic: Inferring Robust Plans with a Rail Network Simulator
+  name: Reuben Gardos Reid
+  type: MSc thesis
+  title: Inferring Robust Plans with a Rail Network Simulator
+  abstract: "Over 700 trains in the Netherlands are used daily for passenger transportation. Train operations involve tasks like parking, recombination, cleaning, and maintenance, which take place in shunting yards. The train unit shunting problem (TUSP) is a complex planning problem made more difficult by uncertainties such as delays. Most existing approaches overlook these disturbances and the approaches that consider them incorporate heuristics to enhance the robustness of their solutions to disturbances. This thesis proposes an alternative approach: utilizing probabilistic programming to turn an existing planning algorithm and simulator into a generative model of the TUSP. The model introduces disturbances without the need to modify the planning algorithm or simulator. Through two types of inference, we infer a distribution of robust solutions for the TUSP. Empirical results demonstrate the effectiveness of our approach for inferring robust plans in small-scale scenarios."
+  link: http://resolver.tudelft.nl/uuid:209608e8-9fa7-4e03-aad8-e973ad22cde9
+  start: 15-11-2022
+  end: 21-07-2023
+  status: finished
+  year: 2023
+  keywords:
+    - probabilistic programming
+    - train shunting
+    - TUSP
+    - inference
+    - robustness
+- topic: Data-driven planning for the Train Unit Shunting Problem
+  name: Nazariy Lonyuk
+  type: MSc thesis
+  start: 14-02-2024
+  year: 2024
+  status: inprogress
+  keywords:
+    - data-driven
+    - planning
+    - features
+    - TUSP
+- topic: "Landmarks in planning"
+  type: BSc thesis
+  start: 13-11-2023
+  end: 31-01-2024
+  year: 2024
+  keywords: 
+    - AI planning
+    - Classical planning
+    - Landmarks
+    - SymbolicPlanners.jl
+  subprojects:
+    - title: "Exploring the effectivity of AND/OR landmark extraction on modern planning domains"
+      name: Pauline Hengst
+      link: http://resolver.tudelft.nl/uuid:80265ee3-58f4-4afb-964f-ffc9d8906ada
+    - title: "Landmarks in Planning: Using landmarks as Intermediary Goals or as a Pseudo-Heuristic"
+      name: Bart van Maris
+      link: http://resolver.tudelft.nl/uuid:e8ea1f64-6640-464f-98c7-942c13333d90
+    - title: "Re-evaluating the Full Landmark Extraction Algorithm: A Performance Analysis of FULL"
+      name: Noah Tjoen
+      link: http://resolver.tudelft.nl/uuid:28d13e2d-c7ee-4fdf-a50b-3dfa842b79b6
+    - title: "Reproducing the concept of ordered landmarks in planning: The effect of ordered landmarks on plan length in forward search"
+      name: Paul Tervoort
+      link: http://resolver.tudelft.nl/uuid:ea22d58f-c5e5-402c-a609-f85eb41ea751
+    - title: "Extending SymbolicPlanners with forward propagation landmark extraction"
+      name: Ka Fui Yang
+      link: http://resolver.tudelft.nl/uuid:8d0cdd3e-e68a-4202-a4b1-9b139d49e555
+- topic: Comparing planners for railway planning
+  type: BSc thesis
+  year: 2024
+  keywords:
+    - TUPS
+    - PDDL
+    - planning
+    - shunting
+  subprojects:
+    - title: "Mixed-direction train shunting with numerical planning: Approach to support train departures at any time during the shunting plan"
+      name: Ákos Sárkány
+      link: http://resolver.tudelft.nl/uuid:913f254a-4af6-4916-9fcf-9e1609b5484b
+    - title: "Comparing planners for rail planning in PDDL: How multiple shunting yard layouts can be created in PDDL to replicate real-world scenarios"
+      name: Tim Tian
+      link: http://resolver.tudelft.nl/uuid:1dfdef8d-d36a-43de-9688-07609ea7f6f5
+    - title: "Utilizing General Planners to Solve the Train Unit Shunting Problem Extended with Servicing"
+      name: Bozhidar Andonov
+      link: http://resolver.tudelft.nl/uuid:ebbcf98a-0a4b-41d0-b110-d145a2be0f2a
+    - title: "Optimizing the PDDL domain of TUSP to improve planner performance: Modifying the domain to improve planner execution time, plan quality, and problem solvability"
+      name: Simba Chiu
+      link: http://resolver.tudelft.nl/uuid:a4235dfd-f124-4fdc-aca4-2305bc11be57
+    - title: "Dealing with conflicting trains: Effectively avoiding and resolving conflicts during shunting"
+      name: Mees Gribnau
+      link: http://resolver.tudelft.nl/uuid:0d5e2fca-247a-4e94-bde4-d39a6818daed
+- topic: Learning patterns in train position data
+  type: BSc thesis
+  year: 2024
+  keywords:
+    - shunting
+    - TUSP 
+    - GPS locations
+    - classification
+  subprojects:
+    - title: Classifying locations by identifying station specific patterns
+      link: https://repository.tudelft.nl/record/uuid:ae8da71b-fa58-4e13-9d33-ed5315532875
+      name:  Ivan Smilenov
+    - title: Examining Manual Solutions of the Train Unit Shunting Problem to find Train Type Patterns
+      link: https://repository.tudelft.nl/record/uuid:3571427e-98af-429c-ad0c-3b6d5310ee43
+      name: Mitchell van Pelt
+    - title: Detecting Patterns in Train Position Data of Trains in Shunting Yards
+      link: https://repository.tudelft.nl/record/uuid:c2571eaf-b322-4f06-a1d2-42637907ad7e
+      name: Amanda Krudde
+    - title: Automatic Detection of Whether a Solution of the Train Unit Shunting Problem (TUSP) is a Week or a Weekend Day
+      link: https://repository.tudelft.nl/record/uuid:2403ff19-aec6-4ce9-9f07-7c5eafa2d113
+      name: Ilia Tomov
+    - title: Analysis of Shunting Yard Usage and Train Unit Clustering
+      link: https://repository.tudelft.nl/record/uuid:7547d112-b018-4c4f-a0a9-9ebb97a288e4
+      name: Ivo Yordanov
+
