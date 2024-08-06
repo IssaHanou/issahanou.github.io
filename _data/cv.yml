@@ -11,7 +11,6 @@
       value: i.k.hanou@tudelft.nl
     - name: Summary
       value: A Dutch-born scientist in Computer Science, working on sustainable and  effective mobility.
-
 - title: Languages
   type: list_groups
   contents:
@@ -23,8 +22,7 @@
         - name: Native speaker
     - category: Spanish
       items:
-        - name: Beginner
-
+        - name: Intermediate
 - title: Experience
   type: time_table
   contents:
@@ -46,9 +44,6 @@
     - title: Graduate Intern
       institution: Nederlandse Spoorwegen
       year: 2022
-      
-
-
 - title: Education
   type: time_table
   contents:
@@ -61,7 +56,6 @@
     - title: BSc Computer Science and Engineering
       institution: Delft University of Technology, Delft, The Netherlands
       year: 2020
-
 - title: Volunteer
   type: time_table
   contents:
@@ -71,20 +65,8 @@
       description: BNAIC is a local, three-day AI conference for researchers in the Netherlands, Belgium and Luxembourg. I am part of the local organization team. 
     - title: General Board member
       institution: Haarlems Accordeon Orkest, Haarlem, The Netherlands
-      year: 2021-now
+      year: 2021-2024
       description: 
-      - Together with four other board members, I organize concerts, rehearsals, and trips for the orchestra.
+      - Together with four other board members, I organized concerts, rehearsals, and trips for the orchestra.
       - With the music committee, I am in charge of selecting new works to play and creating set lists for concerts.
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
-
-
+      - I built and currently maintain the website of the orchestra.

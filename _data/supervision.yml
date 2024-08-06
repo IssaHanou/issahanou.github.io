@@ -21,10 +21,10 @@
   year: 2024
   status: inprogress
   keywords:
-    - data-driven
+    - PDDL
     - planning
-    - features
     - TUSP
+    - heuristics
 - topic: "Landmarks in planning"
   type: BSc thesis
   start: 13-11-2023
@@ -53,9 +53,9 @@
       link: http://resolver.tudelft.nl/uuid:8d0cdd3e-e68a-4202-a4b1-9b139d49e555
 - topic: Comparing planners for railway planning
   type: BSc thesis
-  year: 2024
+  year: 2023
   keywords:
-    - TUPS
+    - TUSP
     - PDDL
     - planning
     - shunting

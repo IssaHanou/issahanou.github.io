@@ -21,7 +21,8 @@ In September 2024, I will give the first lesson on AI planning at TU Delft, in t
     {% for type in theses %}
         <div class="theses">
             <h4><b>{{ type.name }}</b></h4>
-            {% for thesis in type.items %}
+            {%- assign thesesTypes = type.items | sort: "year" | reverse -%}
+            {% for thesis in thesesTypes %}
                 <div class="thesis">
                     {% if type.name == "MSc thesis" %}
                         <h5><a href="{{ thesis.link }}" class="{{ thesis.status }}" target="_blank">{{ thesis.topic }}</a></h5>
