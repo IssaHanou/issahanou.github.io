@@ -10,7 +10,7 @@
     - name: Email
       value: i.k.hanou@tudelft.nl
     - name: Summary
-      value: A Dutch-born scientist in Computer Science, working on sustainable and  effective mobility.
+      value: A Dutch-born scientist in Computer Science, working on sustainable and  effective mobility using AI Planning.
 - title: Languages
   type: list_groups
   contents:

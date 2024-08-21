@@ -1,0 +1,34 @@
+---
+layout: page
+---
+
+<h5>Look at other news</h5>
+<div class="news_overview_year">
+    {% for year in site.news_overview %}
+        <a class="abstract btn btn-sm z-depth-0" href="{{ year.url | relative_url }}">{{ year.year }}</a>
+    {% endfor %}
+</div>
+
+<br>
+
+<h3>News from {{ page.year }}</h3>
+<div class="news_per_year">
+    {%- assign news = site.news | reverse -%}
+    {%- assign news_by_year = site.news | where: "year", page.year -%}
+    <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+        {% for item in news_by_year %}
+        <tr>
+            <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+            <td>
+            {% if item.inline -%}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+            {%- else -%}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {%- endif %}
+            </td>
+        </tr>
+        {%- endfor %}
+        </table>
+    </div>
+</div>

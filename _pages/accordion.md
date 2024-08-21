@@ -4,7 +4,7 @@ permalink: /accordion/
 title: Music
 description: Besides my PhD, I am a passionate accordion player.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 After completing my conservatory study in 2023, I still play besides my work at the university and within the Haarlem Accordion Orchestra. For more information and requests, send me an email at <a href="mailto:issahanou7@gmail.com">issahanou7@gmail.com</a>.

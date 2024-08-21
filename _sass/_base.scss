@@ -1093,3 +1093,21 @@ nav[data-toggle="toc"] {
     }
   }
 }
+
+.news_overview {
+  .btn.btn-sm {
+    font-size: 1.2rem;
+    border: white solid;
+  }
+}
+.news_overview_year {
+  .btn.btn-sm {
+    font-size: 0.7rem;
+    border: thin white solid;
+  }
+}
+.news_per_year {
+  th {
+    width: 20%;
+  }
+}

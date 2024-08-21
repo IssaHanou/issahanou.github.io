@@ -178,6 +178,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  news_overview:
+    output: true
+    permalink: /news_overview/:path/
 
 announcements:
   enabled: true

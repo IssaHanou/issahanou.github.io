@@ -1,12 +1,13 @@
 - topic: Inferring Robust Plans with a Rail Network Simulator
   name: Reuben Gardos Reid
-  type: MSc thesis
+  type: MSc theses
   title: Inferring Robust Plans with a Rail Network Simulator
   abstract: "Over 700 trains in the Netherlands are used daily for passenger transportation. Train operations involve tasks like parking, recombination, cleaning, and maintenance, which take place in shunting yards. The train unit shunting problem (TUSP) is a complex planning problem made more difficult by uncertainties such as delays. Most existing approaches overlook these disturbances and the approaches that consider them incorporate heuristics to enhance the robustness of their solutions to disturbances. This thesis proposes an alternative approach: utilizing probabilistic programming to turn an existing planning algorithm and simulator into a generative model of the TUSP. The model introduces disturbances without the need to modify the planning algorithm or simulator. Through two types of inference, we infer a distribution of robust solutions for the TUSP. Empirical results demonstrate the effectiveness of our approach for inferring robust plans in small-scale scenarios."
   link: http://resolver.tudelft.nl/uuid:209608e8-9fa7-4e03-aad8-e973ad22cde9
   start: 15-11-2022
   end: 21-07-2023
   status: finished
+  post_name: True
   year: 2023
   keywords:
     - probabilistic programming
@@ -16,17 +17,18 @@
     - robustness
 - topic: Data-driven planning for the Train Unit Shunting Problem
   name: Nazariy Lonyuk
-  type: MSc thesis
+  type: MSc theses
   start: 14-02-2024
   year: 2024
   status: inprogress
+  post_name: False
   keywords:
     - PDDL
     - planning
     - TUSP
     - heuristics
 - topic: "Landmarks in planning"
-  type: BSc thesis
+  type: BSc theses
   start: 13-11-2023
   end: 31-01-2024
   year: 2024
@@ -52,7 +54,7 @@
       name: Ka Fui Yang
       link: http://resolver.tudelft.nl/uuid:8d0cdd3e-e68a-4202-a4b1-9b139d49e555
 - topic: Comparing planners for railway planning
-  type: BSc thesis
+  type: BSc theses
   year: 2023
   keywords:
     - TUSP
@@ -76,7 +78,7 @@
       name: Mees Gribnau
       link: http://resolver.tudelft.nl/uuid:0d5e2fca-247a-4e94-bde4-d39a6818daed
 - topic: Learning patterns in train position data
-  type: BSc thesis
+  type: BSc theses
   year: 2024
   keywords:
     - shunting
