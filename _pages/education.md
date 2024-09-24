@@ -6,12 +6,12 @@ description: Students I supervised and other teaching activities.
 nav: true
 nav_order: 6
 pdf1: 'ai-planning-slides.pdf'
-pdf2: 'ai-planning-slides[notes].pdf'
+pdf2: 'ai-planning-notes.pdf'
 ---
 
 ## Lectures
 
-In September 2024, I will give the first lesson on AI planning at TU Delft, in the new course 'Probabilistic AI & Reasoning'. You can find <a href="{{ page.pdf1 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the slides here</a> or <a href="{{ page.pdf2 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the version with notes here</a>.
+In September 2024, I will give the first lesson on AI planning at TU Delft, in the new course 'Probabilistic AI & Reasoning'. You can find <a href="{{ page.pdf1 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the slides here</a> and <a href="{{ page.pdf2 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the lecture notes here</a>.
 
 <br>
 ## Thesis supervision
