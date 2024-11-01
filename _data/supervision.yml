@@ -10,12 +10,12 @@
   post_name: True
   year: 2023
   keywords:
-    - probabilistic programming
     - train shunting
     - TUSP
-    - inference
     - robustness
-- topic: Data-driven planning for the Train Unit Shunting Problem
+    - probabilistic programming
+    - inference
+- topic: AI planning for the Train Unit Shunting Problem
   name: Nazariy Lonyuk
   type: MSc theses
   start: 14-02-2024
@@ -23,10 +23,22 @@
   status: inprogress
   post_name: False
   keywords:
-    - PDDL
-    - planning
+    - train shunting
     - TUSP
+    - AI planning
+    - PDDL
     - heuristics
+- topic: Refactoring for AI planning
+  name: Pallabie Sree Sarker
+  type: MSc theses
+  start: 24-09-2024
+  status: inprogress
+  post_name: False
+  keywords:
+    - refactoring
+    - program synthesis
+    - AI planning
+    - train dispatching
 - topic: "Landmarks in planning"
   type: BSc theses
   start: 13-11-2023
@@ -57,10 +69,10 @@
   type: BSc theses
   year: 2023
   keywords:
+    - train shunting
     - TUSP
     - PDDL
     - planning
-    - shunting
   subprojects:
     - title: "Mixed-direction train shunting with numerical planning: Approach to support train departures at any time during the shunting plan"
       name: Ákos Sárkány
@@ -81,7 +93,7 @@
   type: BSc theses
   year: 2024
   keywords:
-    - shunting
+    - train shunting
     - TUSP 
     - GPS locations
     - classification

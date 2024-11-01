@@ -4,7 +4,7 @@ permalink: /education/
 title: Education
 description: Students I supervised and other teaching activities.
 nav: true
-nav_order: 6
+nav_order: 3
 pdf1: 'ai-planning-slides.pdf'
 pdf2: 'ai-planning-notes.pdf'
 ---

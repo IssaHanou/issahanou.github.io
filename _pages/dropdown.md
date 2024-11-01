@@ -1,13 +1,14 @@
 ---
 layout: page
-title: 
-nav: false
-nav_order: 6
+title: other
+nav: true
+nav_order: 5
 dropdown: true
 children: 
-    - title: Accordion
+    - title: Repositories
+      permalink: /repositories/
+    - title: Projects
+      permalink: /projects/
+    - title: Music
       permalink: /accordion/
-    # - title: divider
-    # - title: projects
-    #   permalink: /projects/
 ---

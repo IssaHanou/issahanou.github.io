@@ -3,8 +3,8 @@ layout: page
 title: Projects
 permalink: /projects/
 description: An overview of different projects I am involved in.
-nav: true
-nav_order: 3
+nav: false
+nav_order: 6
 display_categories: [work]
 horizontal: false
 ---
