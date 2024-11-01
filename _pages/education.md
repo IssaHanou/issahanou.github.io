@@ -24,7 +24,7 @@ In September 2024, I will give the first lesson on AI planning at TU Delft, in t
     {% for type in theses %}
         <div class="theses">
             <h4><b>{{ type.name }}</b></h4>
-            {%- assign thesesTypes = type.items | sort: "year" | reverse -%}
+            {%- assign thesesTypes = type.items | sort: "start" | reverse -%}
             {% for thesis in thesesTypes %}
                 <div class="thesis">
                     {% if type.name == "MSc theses" %}
@@ -37,8 +37,8 @@ In September 2024, I will give the first lesson on AI planning at TU Delft, in t
                         <p> {{ thesis.abstract }} </p>
                     {% else %}
                         <h5>{{ thesis.topic }} ({{ thesis.year }})</h5>
-                        <p> {{ thesis.abstract }} </p>
                     {% endif %}
+                    <p> {{ thesis.abstract }} </p>
                     <div class="keywords">
                         {% for key in thesis.keywords %}
                             <div class="abstract btn btn-sm z-depth-0 keyword">
@@ -48,7 +48,7 @@ In September 2024, I will give the first lesson on AI planning at TU Delft, in t
                     </div>
                     {% if type.name == "BSc theses" %}
                         <ul>
-                            {% for project in thesis.subprojects %}
+                            {% for project in thesis.sub-projects %}
                                 <li><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></li>
                             {% endfor %}
                         </ul>

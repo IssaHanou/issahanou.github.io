@@ -4,8 +4,8 @@
   title: Inferring Robust Plans with a Rail Network Simulator
   abstract: "Over 700 trains in the Netherlands are used daily for passenger transportation. Train operations involve tasks like parking, recombination, cleaning, and maintenance, which take place in shunting yards. The train unit shunting problem (TUSP) is a complex planning problem made more difficult by uncertainties such as delays. Most existing approaches overlook these disturbances and the approaches that consider them incorporate heuristics to enhance the robustness of their solutions to disturbances. This thesis proposes an alternative approach: utilizing probabilistic programming to turn an existing planning algorithm and simulator into a generative model of the TUSP. The model introduces disturbances without the need to modify the planning algorithm or simulator. Through two types of inference, we infer a distribution of robust solutions for the TUSP. Empirical results demonstrate the effectiveness of our approach for inferring robust plans in small-scale scenarios."
   link: http://resolver.tudelft.nl/uuid:209608e8-9fa7-4e03-aad8-e973ad22cde9
-  start: 15-11-2022
-  end: 21-07-2023
+  start: 2022-11-15
+  end: 2023-07-21
   status: finished
   post_name: True
   year: 2023
@@ -18,7 +18,7 @@
 - topic: AI planning for the Train Unit Shunting Problem
   name: Nazariy Lonyuk
   type: MSc theses
-  start: 14-02-2024
+  start: 2024-02-14
   year: 2024
   status: inprogress
   post_name: False
@@ -31,7 +31,8 @@
 - topic: Refactoring for AI planning
   name: Pallabie Sree Sarker
   type: MSc theses
-  start: 24-09-2024
+  start: 2024-09-24
+  year: 2024
   status: inprogress
   post_name: False
   keywords:
@@ -41,15 +42,16 @@
     - train dispatching
 - topic: "Landmarks in planning"
   type: BSc theses
-  start: 13-11-2023
-  end: 31-01-2024
+  start: 2023-11-13
+  end: 2024-01-31
   year: 2024
   keywords: 
     - AI planning
     - Classical planning
     - Landmarks
     - SymbolicPlanners.jl
-  subprojects:
+  abstract: Landmarks in AI planning give the must-reach intermediate goals and have provided significant reductions in planning time. Different algorithms have been developed for extracting landmarks from problem files and using them in a planner. The goal of the project is to implement these different algorithm in the SymbolicPlanners library in Julia to allow for easier use of these landmark algorithms in future research. Each of the sub-projects implements a different landmark algorithm.
+  sub-projects:
     - title: "Exploring the effectivity of AND/OR landmark extraction on modern planning domains"
       name: Pauline Hengst
       link: http://resolver.tudelft.nl/uuid:80265ee3-58f4-4afb-964f-ffc9d8906ada
@@ -68,12 +70,15 @@
 - topic: Comparing planners for railway planning
   type: BSc theses
   year: 2023
+  start: 2023-04-24
+  end: 2023-06-30
   keywords:
     - train shunting
     - TUSP
     - PDDL
     - planning
-  subprojects:
+  abstract: AI planning can formally define real-world planning problems, like the train unit shunting problem. An initial PDDL model for this problem is provided and the is extended to be more realistic. The goal of the project is to compare previously developed planners on their performance for the new problem definition. Each of the sub-projects focuses on a different aspect of the problem to include. 
+  sub-projects:
     - title: "Mixed-direction train shunting with numerical planning: Approach to support train departures at any time during the shunting plan"
       name: Ákos Sárkány
       link: http://resolver.tudelft.nl/uuid:913f254a-4af6-4916-9fcf-9e1609b5484b
@@ -92,12 +97,15 @@
 - topic: Learning patterns in train position data
   type: BSc theses
   year: 2024
+  start: 2024-04-22
+  end: 2024-06-28
   keywords:
     - train shunting
     - TUSP 
     - GPS locations
     - classification
-  subprojects:
+  abstract: Given a set of GPS locations of trains in a railway hub, we want to be able to reconstruct the original plan of which this data is the realization. The goal of the project is to automatically detect patterns that can help in creating new plans. Each of the sub-projects uses a different aspect of the problem to focus the pattern detection on.
+  sub-projects:
     - title: Classifying locations by identifying station specific patterns
       link: https://repository.tudelft.nl/record/uuid:ae8da71b-fa58-4e13-9d33-ed5315532875
       name:  Ivan Smilenov
