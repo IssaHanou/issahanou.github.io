@@ -34,7 +34,6 @@ In September 2024, I will give the first lesson on AI planning at TU Delft, in t
                         {% else %}
                             <h5><a href="{{ thesis.link }}" class="{{ thesis.status }}" target="_blank">{{ thesis.topic }} ({{ thesis.year }})</a></h5>
                         {% endif %}
-                        <p> {{ thesis.abstract }} </p>
                     {% else %}
                         <h5>{{ thesis.topic }} ({{ thesis.year }})</h5>
                     {% endif %}

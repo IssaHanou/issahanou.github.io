@@ -15,24 +15,29 @@
     - robustness
     - probabilistic programming
     - inference
-- topic: AI planning for the Train Unit Shunting Problem
+- topic: "Using PDDL models to solve TUSS: How to model TUSS as an Automated Planning problem and solve it"
   name: Nazariy Lonyuk
   type: MSc theses
   start: 2024-02-14
   year: 2024
-  status: inprogress
-  post_name: False
+  status: finished
+  post_name: True
   keywords:
     - train shunting
     - TUSP
     - AI planning
     - PDDL
     - heuristics
+  link: https://resolver.tudelft.nl/uuid:242e8fdd-95d2-4915-bd28-f0697559514e
+  abstract: "Due to the increased demand for train travel, train operators are considering increasing their rolling stock. Before achieving this, they must enhance the capacity of their shunting yards. This is attempted by improving methodologies for solving the Train Unit Shunting and Servicing (TUSS) problem. To address the TUSS problem, a planner determines routes on shunting yards for trains, ensuring they visit designated service tracks before parking in a configuration that facilitates a smooth departure. 
+  TUSS is a well-studied problem, and various approaches have been proposed. The first approach capable of solving real-world, complete TUSS instances is a local search method introduced by van den Broek et al. In this thesis, we explore an alternative approach using PDDL models. PDDL is the standard language for describing Automated Planning problems. Automated Planning is a well-established field within artificial intelligence, and new, improved algorithms are continually developed to solve PDDL models for problems similar to TUSS.
+  In this thesis, we design a detailed model in PDDL and propose several methods to simplify the model so that planning algorithms perform more efficiently compared to the detailed model. When solving simplified models, a post-processing routine is employed to generate detailed shunting plans. The performance of several model-independent PDDL planners was analysed, and the best-performing planner was identified as Temporal FastDownward.
+  By analysing plans obtained from experiments, we identified areas for improvement. Based on this knowledge, we developed a new TUSS-specific planner called Train Order Preserving Search (TOPS). TOPS employs a search algorithm with effective pruning of symmetrical states and a custom heuristic that guides the search towards states where the order of trains aligns with the departure order. TOPS significantly outperformed Temporal FastDownward in these experiments."
 - topic: Refactoring for AI planning
-  name: Pallabie Sree Sarker
+  name: Pallabi Sree Sarker
   type: MSc theses
   start: 2024-09-24
-  year: 2024
+  year: 2025
   status: inprogress
   post_name: False
   keywords:
@@ -40,6 +45,20 @@
     - program synthesis
     - AI planning
     - train dispatching
+    - forgetting
+    - inductive logic programming
+- topic: "Replanning in advance for train scheduling"
+  name: Eric Kemmeren
+  type: MSc theses
+  status: inprogress
+  start: 2025-01-16
+  year: 2025
+  post_name: False
+  keywords:
+    - replanning
+    - AI planning
+    - train dispatching
+    - ProRail
 - topic: "Landmarks in planning"
   type: BSc theses
   start: 2023-11-13
