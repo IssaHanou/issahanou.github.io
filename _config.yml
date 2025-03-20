@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Issa Hanou # the website title (if blank, full name will be used instead)
 first_name: Issa
 middle_name: Kalina
 last_name: Hanou
 email: i.k.hanou@tudelft.nl
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  My personal webpage.
+  I am a PhD student at TU Delft working on AI planning application for railway operations.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -16,7 +16,7 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 👩‍🎓  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://issahanou.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
