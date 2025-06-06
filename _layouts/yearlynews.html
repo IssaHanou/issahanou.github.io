@@ -4,7 +4,8 @@ layout: page
 
 <h5>Look at other news</h5>
 <div class="news_overview_year">
-    {% for year in site.news_overview %}
+    {%- assign ordered_news = site.news_overview | reverse %}
+    {% for year in ordered_news %}
         <a class="abstract btn btn-sm z-depth-0" href="{{ year.url | relative_url }}">{{ year.year }}</a>
     {% endfor %}
     <a class="abstract btn btn-sm z-depth-0" href="/news_overview">all news</a>

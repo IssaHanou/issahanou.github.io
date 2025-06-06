@@ -8,9 +8,10 @@ nav_order: 1
 ---
 
 <div class="news_overview">
-    {% for year in site.news_overview %}
+    {%- assign ordered_news = site.news_overview | reverse %}
+    {% for year in ordered_news %}
         <a class="abstract btn btn-sm z-depth-0" href="{{ year.url | relative_url }}">{{ year.year }}</a>
-        {% endfor %}
+    {% endfor %}
 </div>
 
 <br>
