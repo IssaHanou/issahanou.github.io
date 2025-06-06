@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I presented our paper on the feasibility of shunting yards at ICAPS in Prague.
+I presented our paper "[Moving trains like pebbles: a feasibility study on tree yards](\publications#Hanou2023moving)" at ICAPS in Prague.

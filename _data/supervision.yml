@@ -1,4 +1,5 @@
 - topic: Inferring Robust Plans with a Rail Network Simulator
+  id: GardosReid2023
   name: Reuben Gardos Reid
   type: MSc theses
   title: Inferring Robust Plans with a Rail Network Simulator
@@ -16,9 +17,11 @@
     - probabilistic programming
     - inference
 - topic: "Using PDDL models to solve TUSS: How to model TUSS as an Automated Planning problem and solve it"
+  id: Lonyuk2024
   name: Nazariy Lonyuk
   type: MSc theses
   start: 2024-02-14
+  end: 2024-12-09
   year: 2024
   status: finished
   post_name: True
@@ -35,6 +38,7 @@
   By analysing plans obtained from experiments, we identified areas for improvement. Based on this knowledge, we developed a new TUSS-specific planner called Train Order Preserving Search (TOPS). TOPS employs a search algorithm with effective pruning of symmetrical states and a custom heuristic that guides the search towards states where the order of trains aligns with the departure order. TOPS significantly outperformed Temporal FastDownward in these experiments."
 - topic: Refactoring for AI planning
   name: Pallabi Sree Sarker
+  id: Sarker2025
   type: MSc theses
   start: 2024-09-24
   year: 2025
@@ -50,6 +54,7 @@
 - topic: "Replanning in advance for train scheduling"
   name: Eric Kemmeren
   type: MSc theses
+  id: Kemmeren2025
   status: inprogress
   start: 2025-01-16
   year: 2025

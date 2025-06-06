@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "Moving trains like pebbles: a feasibility study on tree yards" was accepted at ICAPS!
+Our paper "[Moving trains like pebbles: a feasibility study on tree yards](\publications#Hanou2023moving)" was accepted at ICAPS!

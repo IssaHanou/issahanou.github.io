@@ -9,9 +9,8 @@ pdf1: 'ai-planning-slides.pdf'
 pdf2: 'ai-planning-notes.pdf'
 ---
 
-## Lectures
-
-In September 2024, I will give the first lesson on AI planning at TU Delft, in the new course 'Probabilistic AI & Reasoning'. You can find <a href="{{ page.pdf1 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the slides here</a> and <a href="{{ page.pdf2 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the lecture notes here</a>.
+I give a lecture on AI planning in the course 'Probabilistic AI & Reasoning' at TU Delft for the Artificial Intelligence master. I first gave this lecture in September 2024 and will do the same in 2025. 
+You can find <a href="{{ page.pdf1 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the slides here</a> and <a href="{{ page.pdf2 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the lecture notes here</a>.
 
 <br>
 ## Thesis supervision
@@ -26,7 +25,7 @@ In September 2024, I will give the first lesson on AI planning at TU Delft, in t
             <h4><b>{{ type.name }}</b></h4>
             {%- assign thesesTypes = type.items | sort: "start" | reverse -%}
             {% for thesis in thesesTypes %}
-                <div class="thesis">
+                <div class="thesis" id="{{ thesis.id }}">
                     {% if type.name == "MSc theses" %}
                         {% if thesis.post_name %}
                             <h5><a href="{{ thesis.link }}" class="{{ thesis.status }}" target="_blank">{{ thesis.topic }}</a></h5>

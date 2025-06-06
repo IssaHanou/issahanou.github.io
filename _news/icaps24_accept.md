@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "Replanning in Advance for Instant Delay Recovery in Multi-Agent Applications: Rerouting Trains in a Railway Hub" together with Devin Wild Thomas, Wheeler Ruml and Mathijs de Weerdt was accepted at the International Conference on Automated Planning and Scheduling (ICAPS24). 
+Our paper "[Replanning in Advance for Instant Delay Recovery in Multi-Agent Applications: Rerouting Trains in a Railway Hub](\publications#Hanou2024replanning)" together with Devin Wild Thomas, Wheeler Ruml and Mathijs de Weerdt was accepted at the International Conference on Automated Planning and Scheduling (ICAPS24). 
