@@ -1,4 +1,5 @@
 - topic: Inferring Robust Plans with a Rail Network Simulator
+  cosupervisors: Sebastijan Dumancic and Mathijs de Weerdt
   id: GardosReid2023
   name: Reuben Gardos Reid
   type: MSc theses
@@ -17,6 +18,7 @@
     - probabilistic programming
     - inference
 - topic: "Using PDDL models to solve TUSS: How to model TUSS as an Automated Planning problem and solve it"
+  cosupervisors: Mathijs de Weerdt
   id: Lonyuk2024
   name: Nazariy Lonyuk
   type: MSc theses
@@ -37,6 +39,7 @@
   In this thesis, we design a detailed model in PDDL and propose several methods to simplify the model so that planning algorithms perform more efficiently compared to the detailed model. When solving simplified models, a post-processing routine is employed to generate detailed shunting plans. The performance of several model-independent PDDL planners was analysed, and the best-performing planner was identified as Temporal FastDownward.
   By analysing plans obtained from experiments, we identified areas for improvement. Based on this knowledge, we developed a new TUSS-specific planner called Train Order Preserving Search (TOPS). TOPS employs a search algorithm with effective pruning of symmetrical states and a custom heuristic that guides the search towards states where the order of trains aligns with the departure order. TOPS significantly outperformed Temporal FastDownward in these experiments."
 - topic: Refactoring for AI planning
+  cosupervisors: Sebastijan Dumancic
   name: Pallabi Sree Sarker
   id: Sarker2025
   type: MSc theses
@@ -65,7 +68,9 @@
     - train dispatching
     - ProRail
 - topic: "Landmarks in planning"
+  cosupervisors: Sebastijan Dumancic
   type: BSc theses
+  status: finished
   start: 2023-11-13
   end: 2024-01-31
   year: 2024
@@ -92,8 +97,10 @@
       name: Ka Fui Yang
       link: http://resolver.tudelft.nl/uuid:8d0cdd3e-e68a-4202-a4b1-9b139d49e555
 - topic: Comparing planners for railway planning
+  cosupervisors: Sebastijan Dumancic
   type: BSc theses
   year: 2023
+  status: finished
   start: 2023-04-24
   end: 2023-06-30
   keywords:
@@ -119,7 +126,9 @@
       name: Mees Gribnau
       link: http://resolver.tudelft.nl/uuid:0d5e2fca-247a-4e94-bde4-d39a6818daed
 - topic: Learning patterns in train position data
+  cosupervisors: Mathijs de Weerdt
   type: BSc theses
+  status: finished
   year: 2024
   start: 2024-04-22
   end: 2024-06-28
@@ -145,4 +154,28 @@
     - title: Analysis of Shunting Yard Usage and Train Unit Clustering
       link: https://repository.tudelft.nl/record/uuid:7547d112-b018-4c4f-a0a9-9ebb97a288e4
       name: Ivo Yordanov
-
+- topic: Robust Planning as Probabilistic Inference
+  cosupervisors: Reuben Gardos Reid and Sebastijan Dumancic
+  type: BSc theses
+  status: finished
+  year: 2025
+  start: 2025-04-22
+  end: 2025-06-26
+  keywords: robust planning, probabilistic programming, probabilistic inference, TUSP, PDDL, scheduling, importance sampling
+  abstract: Given a planning problem formulation, we want to use our planning algorithm to solve the problem, while taking uncertainty into account but not changing the algorithm. We formulate an uncertain factor using a predefined distribution and modeling the probabilistic program. Using importance sampling, we can sample different outcomes of the uncertain factor and find a plan that is robust against all of these outcomes. 
+  subprojects:
+    - title: Robust Plan Inference in the Keys and Doors Problem
+      link: https://resolver.tudelft.nl/uuid:7de21e52-f271-421f-933c-6f7529307978
+      name: Koen van der Knaap
+    - title: Robust Planning for Sokoban with Probabilistic Inference
+      link: https://resolver.tudelft.nl/uuid:3a8ec251-49d7-4742-b807-1d54832776b5
+      name: "Daniel 't Mannetje"
+    - title: Finding Robust Schedules in the Stochastic Resource Constrained Project Scheduling Problem using Probabilistic Inference
+      link: https://resolver.tudelft.nl/uuid:52934ffe-bb39-49d5-9938-75067874a6da
+      name: Kasper van Duijne
+    - title: "Robust Planning as Probabilistic Inference: Creating robust plans for the Minecraft planner of the PDDL Gym library using Probabilistic Inference"
+      link: https://resolver.tudelft.nl/uuid:1efd4f53-573e-4579-9763-15d3b1da0926
+      name: Matthijs Bonke
+    - title: Creating Robust Train Unit Shunting Plans using Probabilistic Programming
+      link: https://resolver.tudelft.nl/uuid:1cc5d684-7f42-47b3-bbbf-042f73327473
+      name: Job van Zwienen

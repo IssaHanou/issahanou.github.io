@@ -30,11 +30,13 @@ You can find <a href="{{ page.pdf1 | prepend: 'assets/pdf/' | relative_url}}" ta
                         {% if thesis.post_name %}
                             <h5><a href="{{ thesis.link }}" class="{{ thesis.status }}" target="_blank">{{ thesis.topic }}</a></h5>
                             <p> {{ thesis.name }} ({{ thesis.year }})</p>
+                            <p><em>Co-supervised with: {{ thesis.cosupervisors }}</em></p>
                         {% else %}
                             <h5><a href="{{ thesis.link }}" class="{{ thesis.status }}" target="_blank">{{ thesis.topic }} ({{ thesis.year }})</a></h5>
                         {% endif %}
                     {% else %}
                         <h5>{{ thesis.topic }} ({{ thesis.year }})</h5>
+                        <p><em>Co-supervised with: {{ thesis.cosupervisors }}</em></p>
                     {% endif %}
                     <p> {{ thesis.abstract }} </p>
                     <div class="keywords">
