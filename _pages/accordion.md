@@ -7,12 +7,30 @@ nav: false
 nav_order: 8
 ---
 
-After completing my conservatory study in 2023, I still play besides my work at the university and within the Haarlem Accordion Orchestra. For more information and requests, send me an email at <a href="mailto:issahanou7@gmail.com">issahanou7@gmail.com</a>.
+After completing my conservatory study in 2023, I still play besides my work at the university and within the Haarlem Accordion Orchestra. For more information and requests, please send me an email at <a href="mailto:issahanou7@gmail.com">issahanou7@gmail.com</a>.
 
 <h3>Concerts</h3>
 For the next concerts of the Haarlem Accordion Orchestra, please see their <a href="https://www.haarlemsaccordeonorkest.nl/agenda">website</a>.
 
 Currently, I have no solo projects scheduled. 
+
+<h3>Previous events</h3>
+    <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+            <tr>
+                <th scope="row">July 20, 2025</th>
+                <td>
+                    <a class="news-title" href="{{ music_news/novum-canticum25 | base_url }}">A performance with the Novum Canticum choir</a>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">June 9, 2023</th>
+                <td>
+                    <a class="news-title" href="{{ news/exam | base_url }}">My final exam of my minor conservative study</a>
+                </td>
+            </tr>
+        </table>
+    </div>
 
 
 <h3>Biography</h3>
@@ -20,9 +38,11 @@ When I was nine years old, I started playing accordion and took lessons with Eve
 
 Since 2011, I have also played many times in the solo track of the NOVAM concours, and have been awarded several prizes. In 2013, I also competed at the Prinses Christina Concours. Over the years, I have attended master classes from Gertie Bruin and Stanislav Jusufovic. 
 
-In 2015, I joined the <a href="https://www.haarlemsaccordeonorkest.nl">Haarlem Accordion Orchestra</a> in which I have since played with a lot of enthousiasm. From 2019-2023, I also played in the <a href="https://www.nsao.nl">Dutch Symphonic Accordion Orchestra</a>.
+In 2015, I joined the <a href="https://www.haarlemsaccordeonorkest.nl">Haarlem Accordion Orchestra</a> in which I have since played with a lot of enthusiasm. From 2019-2023, I also played in the <a href="https://www.nsao.nl">Dutch Symphonic Accordion Orchestra</a>.
 
 From 2020-2023, I had lessons from An Raskin at the Royal Conservatory in The Hague while studying Classical Accordion in the Practicum Musicae program. During this time, I also played in a duo with a mezzosoprano and another duo with accordion player <a href="https://www.kaatvanhaverbeke.be">Kaat Vanhaverbeke</a>.
+
+As of 2023, I play the first chair in the Haarlem Accordion Orchestra and do solo projects every now and then.
 
 <h3>Recordings</h3>
 
