@@ -15,22 +15,22 @@ For the next concerts of the Haarlem Accordion Orchestra, please see their <a hr
 Currently, I have no solo projects scheduled. 
 
 <h3>Previous events</h3>
-    <div class="table-responsive">
-        <table class="table table-sm table-borderless">
-            <tr>
-                <th scope="row">July 20, 2025</th>
-                <td>
-                    <a class="news-title" href="{{ music_news/novum-canticum25 | base_url }}">A performance with the Novum Canticum choir</a>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">June 9, 2023</th>
-                <td>
-                    <a class="news-title" href="{{ news/exam | base_url }}">My final exam of my minor conservative study</a>
-                </td>
-            </tr>
-        </table>
-    </div>
+<div class="table-responsive">
+    <table class="table table-sm table-borderless">
+        <tr>
+            <th scope="row">July 20, 2025</th>
+            <td>
+                <a class="news-title" href="/music_news/novum-canticum25">A performance with the Novum Canticum choir</a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">June 9, 2023</th>
+            <td>
+                <a class="news-title" href="/news/exam">My final exam of my minor conservative study</a>
+            </td>
+        </tr>
+    </table>
+</div>
 
 
 <h3>Biography</h3>
