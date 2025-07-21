@@ -21,6 +21,3 @@ This was my first time accompanying a choir and I really enjoyed the experience 
         {% include figure.html path="assets/img/accordion_novum2.jpeg" title="With the orchestra" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    A few photos of the event. 
-</div>

@@ -14,6 +14,7 @@ For the next concerts of the Haarlem Accordion Orchestra, please see their <a hr
 
 Currently, I have no solo projects scheduled. 
 
+<br>
 <h3>Previous events</h3>
 <div class="table-responsive">
     <table class="table table-sm table-borderless">
@@ -32,7 +33,7 @@ Currently, I have no solo projects scheduled.
     </table>
 </div>
 
-
+<br>
 <h3>Biography</h3>
 When I was nine years old, I started playing accordion and took lessons with Evert van Amsterdam. After a year, I joined the accordion orchestra conducted by my teacher called Air & Tune. I really enjoyed playing in the orchestra and after three years I also joined the <it>Kennemer Accordeon Groep</it>. At the same time, we also started a chamber ensemble called Accordeonsextet Haarlem with five other members from the orchestra and we played at the <a href="https://novam.net/activiteiten/solisten-en-kamermuziek-concours/uitslagen-solisten-en-kamermuziek-concours/">NOVAM Concours</a> twice, being awarded a third and first prize. 
 
@@ -44,6 +45,7 @@ From 2020-2023, I had lessons from An Raskin at the Royal Conservatory in The Ha
 
 As of 2023, I play the first chair in the Haarlem Accordion Orchestra and do solo projects every now and then.
 
+<br>
 <h3>Recordings</h3>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p0ORh5-VcpE?si=M9fa0WJI5Uvz6ESw" title="Sonate Nr.2 - Wladislaw Solotarjow" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -12,17 +12,15 @@ pdf2: 'ai-planning-notes.pdf'
 I give a lecture on AI planning in the course 'Probabilistic AI & Reasoning' at TU Delft for the Artificial Intelligence master. I first gave this lecture in September 2024 and will do the same in 2025. 
 You can find <a href="{{ page.pdf1 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the slides here</a> and <a href="{{ page.pdf2 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the lecture notes here</a>.
 
-<br>
-## Thesis supervision
-
-
+<h3>Thesis supervision</h3>
 
 <div class="students">
-    <p>I am/was involved in several theses as the daily supervisor.</p>    
+    <p>I am/was involved in several theses as the daily supervisor.</p>
     {%- assign theses = site.data.supervision | group_by: "type" -%}
     {% for type in theses %}
+        <br>
         <div class="theses">
-            <h4><b>{{ type.name }}</b></h4>
+            <h2><b>{{ type.name }}</b></h2>
             {%- assign thesesTypes = type.items | sort: "start" | reverse -%}
             {% for thesis in thesesTypes %}
                 <div class="thesis" id="{{ thesis.id }}">
