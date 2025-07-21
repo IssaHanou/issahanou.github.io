@@ -181,6 +181,9 @@ collections:
   news_overview:
     output: true
     permalink: /news_overview/:path/
+  music_news:
+    output: true
+    permalink: /music_news/:path/
 
 announcements:
   enabled: true

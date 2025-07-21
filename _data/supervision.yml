@@ -161,9 +161,16 @@
   year: 2025
   start: 2025-04-22
   end: 2025-06-26
-  keywords: robust planning, probabilistic programming, probabilistic inference, TUSP, PDDL, scheduling, importance sampling
-  abstract: Given a planning problem formulation, we want to use our planning algorithm to solve the problem, while taking uncertainty into account but not changing the algorithm. We formulate an uncertain factor using a predefined distribution and modeling the probabilistic program. Using importance sampling, we can sample different outcomes of the uncertain factor and find a plan that is robust against all of these outcomes. 
-  subprojects:
+  keywords: 
+    - robust planning 
+    - probabilistic programming
+    - probabilistic inference
+    - TUSP
+    - PDDL
+    - scheduling
+    - importance sampling
+  abstract: Given a planning problem formulation, we want to use our planning algorithm to solve the problem, while taking uncertainty into account but not changing the algorithm. We formulate an uncertain factor using a predefined distribution and modeling the probabilistic program. Using importance sampling, we can sample different outcomes of the uncertain factor and find a plan that is robust against all of these outcomes. Three projects focused on a PDDL-written problem (Sokoban, Minecraft, and Keys & Doors), another project considered the real-world Train Unit Shunting Problem, and the other project worked with the real-world Resource-Constrained Project Scheduling Problem. 
+  sub-projects:
     - title: Robust Plan Inference in the Keys and Doors Problem
       link: https://resolver.tudelft.nl/uuid:7de21e52-f271-421f-933c-6f7529307978
       name: Koen van der Knaap
