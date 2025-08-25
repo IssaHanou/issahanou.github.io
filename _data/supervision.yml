@@ -55,13 +55,14 @@
     - forgetting
     - refactoring
     - program synthesis
-  abstract: "Automated Planning, also known as Artificial Intelligence (AI) planning is a branch of AI focused on automated decision-making and scheduling. A subproblem within AI Planning is domain-independent planning, where we want to develop methods that are generalizable for solving planning problems in many domains. A popular modelling language for domain-independent planning is PDDL. In PDDL, we model our problems as having some start state and some goal state; these states are defined by the truth-values of a set of defined predicates applied to a set of objects with corresponding types. In this work, we explore the concept of dynamic macro-actions for PDDL, which are macro-actions whose utility are re-evaluated as we solve more problems, and does not require prior training. We find that dynamic macro-actions are a promising method, showing average improvements in the number of nodes explored in the search space of up to 84\% depending on the domain."
+  abstract: "Automated Planning, also known as Artificial Intelligence (AI) planning is a branch of AI focused on automated decision-making and scheduling. A subproblem within AI Planning is domain-independent planning, where we want to develop methods that are generalizable for solving planning problems in many domains. A popular modelling language for domain-independent planning is PDDL. In PDDL, we model our problems as having some start state and some goal state; these states are defined by the truth-values of a set of defined predicates applied to a set of objects with corresponding types. In this work, we explore the concept of dynamic macro-actions for PDDL, which are macro-actions whose utility are re-evaluated as we solve more problems, and does not require prior training. We find that dynamic macro-actions are a promising method, showing average improvements in the number of nodes explored in the search space of up to 84% depending on the domain."
 - topic: "Replanning in advance for train scheduling"
   name: Eric Kemmeren
   type: MSc theses
   id: Kemmeren2025
   status: inprogress
   start: 2025-01-16
+  end: 2025-09-09
   year: 2025
   post_name: False
   keywords:
@@ -69,6 +70,9 @@
     - AI planning
     - train dispatching
     - ProRail
+    - flexibility
+    - any-start-time planning
+    - safe interval path planning
 - topic: "Landmarks in planning"
   cosupervisors: Sebastijan Dumancic
   type: BSc theses
