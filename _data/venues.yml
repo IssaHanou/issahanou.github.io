@@ -9,3 +9,11 @@
 "TRA":
   url: https://traconference.eu/
   color: "#17a756"
+
+"arXiv":
+  url: https://arxiv.org
+  color: "#b31b1b"
+
+"RailDresden":
+  url: https://tu-dresden.de/bu/verkehr/die-fakultaet/veranstaltungen/raildresden2025
+  color: "#00008c"

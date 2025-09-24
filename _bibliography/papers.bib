@@ -54,3 +54,24 @@
   pdf              = {masterthesis.pdf},
   html             = {https://repository.tudelft.nl/islandora/object/uuid:2ca12cd2-315e-4a31-9a2a-67a77d8988bf},
 }
+@preprint{Hanou2025Revisiting,
+  title={Revisiting Landmarks: Learning from Previous Plans to Generalize over Problem Instances}, 
+  author={Issa Hanou and Sebastijan Duman\v{c}i\'{c} and Mathijs De Weerdt},
+  year={2025},
+  eprint={2508.21564},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  html={https://arxiv.org/abs/2508.21564},
+  abbr={arXiv},
+  abstract={We propose a new framework for discovering landmarks that automatically generalize across a domain. These generalized landmarks are learned from a set of solved instances and describe intermediate goals for planning problems where traditional landmark extraction algorithms fall short. Our generalized landmarks extend beyond the predicates of a domain by using state functions that are independent of the objects of a specific problem and apply to all similar objects, thus capturing repetition. Based on these functions, we construct a directed generalized landmark graph that defines the landmark progression, including loop possibilities for repetitive subplans. We show how to use this graph in a heuristic to solve new problem instances of the same domain. Our results show that the generalized landmark graphs learned from a few small instances are also effective for larger instances in the same domain. If a loop that indicates repetition is identified, we see a significant improvement in heuristic performance over the baseline. Generalized landmarks capture domain information that is interpretable and useful to an automated planner. This information can be discovered from a small set of plans for the same domain.},
+}
+@misc{Hanou2025MultiAgent,
+  author={Issa Hanou and Mathijs De Weerdt},
+  title={Multi-Agent Pathfinding for Railway Routing},
+  year={2025},
+  abbr={RailDresden},
+  venue={RailDresden 2025: 11th International Conference on Railway Operations Modelling and Analysis - Technische Universität Dresden, Dresden, Germany},
+  html={https://research.tudelft.nl/en/publications/multi-agent-pathfinding-for-railway-routing},
+  abstract={Research in railway operations has mostly focused on operations research methods. However, these real-world problems have a state-based nature, which makes them very suitable for AI models, such as the Multi-Agent Pathfinding problem, where agents move in a grid and need to be routed from their start to their goal location without colliding with each other. The core aspect of problems like train shunting and train dispatching is routing, which is often not the main focus of current mathematical formulations. Therefore, we apply the state-of-the-art algorithms to the railway problems of shunting and dispatching and study their usability for routing trains. The Multi-Agent Pathfinding problem is often solved with one of two algorithms: conflict-based search (a two-stage algorithm detecting conflicts between individual paths and using A* search to find new conflict-free paths), and branch-cut-and-price (a linear program adding cuts (row generation) based on problem-specific constraints, and finding new paths to be selected that satisfy all constraints using a pricer). We modify these algorithms to include more railway details. First, we allow for the matching of train units (i.e., ensure the necessary train units of a certain type are available for departure) by specifying goals for agent (type) groups instead of single agent goals. Moreover, we add goal sequences for servicing stations and agents of different sizes, and we study specific aspects of the railway infrastructure to exploit in the algorithm. Finally, we show the use of Multi-Agent Pathfinding solvers in different railway settings and analyze the conditions for success.},
+  poster={poster_raildresden25.pdf}
+}
