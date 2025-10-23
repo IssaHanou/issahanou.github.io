@@ -5,6 +5,22 @@ github_repos:
   - IssaHanou/supplementary-material
   - dwThomas/delay-replanning
 
+github_organizations:
+  - name: Herb-AI
+    link: https://herb-ai.github.io/
+    repos:
+      - Herb.jl
+      - HerbSearch.jl
+      - HerbGrammar.jl
+      - HerbSpecification.jl
+      - HerbConstraints.jl
+  - name: Robust-Rail-NL
+    link: https://github.com/Robust-Rail-NL/
+    repos:
+      - robust-rail-generator
+      - robust-rail-solver
+      - robust-rail-evaluator
+      - scenario-planning-inputs
 
 gitlab_users:
   - issahanou
