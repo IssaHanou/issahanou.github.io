@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Eric Kemmeren defended his MSc thesis on [Flexibility for Safe Interval Path Planning in the Dutch Railway Networkd](/education#Kemmeren2025).
+Eric Kemmeren defended his MSc thesis on [Flexibility for Safe Interval Path Planning in the Dutch Railway Network](/education#Kemmeren2025).
