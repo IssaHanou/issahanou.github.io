@@ -9,7 +9,7 @@ pdf1: 'ai-planning-slides.pdf'
 pdf2: 'ai-planning-notes.pdf'
 ---
 
-I give a lecture on AI planning in the course 'Probabilistic AI & Reasoning' at TU Delft for the Artificial Intelligence master. I first gave this lecture in September 2024 and will do the same in 2025. 
+I give a lecture on AI planning in the course 'Probabilistic AI & Reasoning' at TU Delft for the Artificial Intelligence master. I first gave this lecture in September 2024 and again in 2025. I also guest lectured with the same topic in the Robotics MSc program.
 You can find <a href="{{ page.pdf1 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the slides here</a> and <a href="{{ page.pdf2 | prepend: 'assets/pdf/' | relative_url}}" target="_blank">the lecture notes here</a>.
 
 <h3>Thesis supervision</h3>

@@ -25,6 +25,12 @@ Currently, I have no solo projects scheduled.
             </td>
         </tr>
         <tr>
+            <th scope="row">January 28, 2024</th>
+            <td>
+                I performed Adi&oacute;s Nonino as a soloist with the Haarlem Accordion Orchestra
+            </td>
+        </tr>
+        <tr>
             <th scope="row">June 9, 2023</th>
             <td>
                 <a class="news-title" href="/news/exam">My final exam of my minor conservative study</a>

@@ -76,6 +76,41 @@
     - any-start-time planning
     - safe interval path planning
   abstract: "During the daily operation of the railway network, ProRail is responsible for handling delays and planning ad hoc train movements. Train handling documents aid the traffic controllers in common situations. But when multiple trains are delayed, and these documents do not apply, they are left to their own expertise. In this thesis, we introduce FlexSIPP, an algorithm to plan or replan agents in an existing multi-agent plan. FlexSIPP builds upon the prior works of any-start-time safe interval path planning, where the current routes of the agents are seen as moving obstacles. FlexSIPP loosens this restriction by introducing flexibility: the ability for an agent to delay its plan while minimally impacting other agents. This algorithm is evaluated on the Dutch railway network. By finding tipping points, that is, the moment it is better to switch the order of two trains on the track to minimize the delay, we can recreate train handling documents. We show that FlexSIPP finds the same solutions within a minute in the case that no other trains are delayed. This implies that FlexSIPP is also able to aid traffic controllers in the case that other trains are delayed."
+- topic: Online Task and Motion Planning for Multiple Manipulators
+  name: Kees Blok
+  type: MSc theses
+  cosupervisors: Mathijs de Weerdt
+  id: Blok2026
+  status: inprogress
+  start: 2025-11-10
+  end: 2026-09-07
+  year: 2026  
+  post_name: False
+  keywords:
+    - task and motion planning
+    - multi-agent planning
+    - online planning
+    - manipulators
+    - robotics
+    - multi-agent pathfinding
+  abstract: ""
+- topic: Multi-Agent Pathfinding for the Train Unit Shunting Problem
+  name: Thomas Verwaal
+  type: MSc theses
+  cosupervisors: Mathijs de Weerdt
+  id: Verwaal2026
+  status: inprogress
+  start: 2025-11-10
+  end: 2026-09-07
+  year: 2026  
+  post_name: False
+  keywords:
+    - multi-agent pathfinding
+    - train shunting
+    - TUSP
+    - railway planning
+    - lagrangian relaxation
+    - mixed integer linear programming
 - topic: "Landmarks in planning"
   cosupervisors: Sebastijan Dumancic
   type: BSc theses
