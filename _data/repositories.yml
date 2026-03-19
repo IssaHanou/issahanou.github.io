@@ -9,18 +9,19 @@ github_organizations:
   - name: Herb-AI
     link: https://herb-ai.github.io/
     repos:
-      - Herb.jl
-      - HerbSearch.jl
-      - HerbGrammar.jl
-      - HerbSpecification.jl
-      - HerbConstraints.jl
+      - Herb-AI/Herb.jl
+      - Herb-AI/HerbGrammar.jl
+      - Herb-AI/HerbSearch.jl
+      - Herb-AI/HerbConstraints.jl
+      - Herb-AI/HerbSpecification.jl
+      - Herb-AI/HerbBenchmarks.jl
   - name: Robust-Rail-NL
     link: https://github.com/Robust-Rail-NL/
     repos:
-      - robust-rail-generator
-      - robust-rail-solver
-      - robust-rail-evaluator
-      - scenario-planning-inputs
+      - Robust-Rail-NL/robust-rail-generator
+      - Robust-Rail-NL/robust-rail-solver
+      - Robust-Rail-NL/robust-rail-evaluator
+      - Robust-Rail-NL/scenario-planning-inputs
 
 gitlab_users:
   - issahanou
