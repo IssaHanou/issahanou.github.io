@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I gave my lecture again on AI Planning for the Probabilistic AI and Reasoning MSc course.
+I gave my lecture again on AI Planning for the Probabilistic AI and Reasoning MSc course at TU Delft.

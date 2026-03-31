@@ -1,8 +1,8 @@
 ---
 layout: page
 title: other
-nav: true
-nav_order: 5
+nav: false
+nav_order: 7
 dropdown: true
 children: 
     - title: Repositories

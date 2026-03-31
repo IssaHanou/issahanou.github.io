@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I served as a lead reviewer on the ICAPS program committee for the first time. This year, I also join the SoCS program committee.
+I served as a lead reviewer on the [ICAPS](https://www.icaps-conference.org/) program committee for the first time. This year, I also join the [SoCS](https://search-conference.org/) program committee.
