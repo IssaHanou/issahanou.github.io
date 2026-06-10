@@ -17,3 +17,7 @@
 "RailDresden":
   url: https://tu-dresden.de/bu/verkehr/die-fakultaet/veranstaltungen/raildresden2025
   color: "#00008c"
+
+"SoCS":
+  url: https://search-conference.org/
+  color: "#b82619"

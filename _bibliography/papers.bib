@@ -1,13 +1,26 @@
-@preprint{Hanou2026FlexSIPP,
-  title={Precomputing Multi-Agent Path Replanning using Temporal Flexibility: A Case Study on the Dutch Railway Network},
+@InProceedings{Hanou2026GenPlan,
+  title={Revisiting Landmarks: How To Learn from Previous Plans to Generalize over Problem Instances},
+  author={Issa Hanou and Sebastijan Duman\v{c}i\'{c} and Mathijs De Weerdt},
+  year={2026},
+  month={6},
+  booktitle={9th Workshop on Generalization in Planning (GenPlan) at ICAPS'26},
+  extended={https://arxiv.org/abs/2508.21564},
+  code={https://doi.org/10.5281/zenodo.20591819},
+  abbr={ICAPS},
+  pdf={genplan26.pdf}
+  abstract={Landmarks have greatly improved AI planning by identifying the must-reach states for any plan that solves an instance. However, as landmarks are ground atoms, they are instance- and object-specific, and thus do not capture any general knowledge about the problem domain. Moreover, landmark graphs often contain repetitive chains of landmarks, thereby increasing graph size. We propose generalized landmarks that describe general intermediate goals for an entire problem domain. Generalized landmarks extend beyond the predicates of a domain by using state functions, which are independent of a specific object and capture repetition. A directed generalized landmark graph is constructed that includes loops to identify repetitive subplans. We give examples of hand-constructed graphs and discuss our approach to learning them from a small set of solved instances. To use generalized landmarks for planning, we present a simple counting heuristic and show how it exploits loop behavior and local landmark guides to find plans more efficiently.}
+}
+@InProceedings{Hanou2026FlexSIPP,
+  title={Precomputing Multi-Agent Path Replanning Using Temporal Flexibility},
   author={Issa Hanou and Eric Kemmeren and Devin Wild Thomas and Mathijs De Weerdt},
   year={2026},
-  month={1},
-  eprint={arXiv:2601.04884},
-  primaryClass={cs.AI},
-  html={https://arxiv.org/abs/2601.04884},
-  abbr={arXiv},
-  abstract={Executing a multi-agent plan can be challenging when an agent is delayed, because this typically creates conflicts with other agents. So, we need to quickly find a new safe plan. Replanning only the delayed agent often does not result in an efficient plan, and sometimes cannot even yield a feasible plan. On the other hand, replanning other agents may lead to a cascade of changes and delays. We show how to efficiently replan by tracking and using the temporal flexibility of other agents while avoiding cascading delays. This flexibility is the maximum delay an agent can take without changing the order of or further delaying more agents. Our algorithm, FlexSIPP, precomputes all possible plans for the delayed agent, also returning the changes for the other agents, for any single-agent delay within the given scenario. We demonstrate our method in a real-world case study of replanning trains in the densely-used Dutch railway network. Our experiments show that FlexSIPP provides effective solutions, relevant to real-world adjustments, and within a reasonable timeframe.}
+  month={6},
+  booktitle={Proceedings of the Nineteenth International Symposium on Combinatorial Search},
+  extended={https://arxiv.org/abs/2601.04884},
+  code={https://doi.org/10.5281/zenodo.20543671},
+  abbr={SoCS},
+  pdf={socs26.pdf}
+  abstract={Executing a multi-agent plan can be challenging when an agent is delayed, because this typically creates conflicts with other agents. So, we need to quickly find a new safe plan. Replanning only the delayed agent often does not yield an efficient plan, and sometimes cannot even yield a feasible one. On the other hand, replanning other agents may lead to a cascade of changes and delays, and it is computationally expensive. We show how to efficiently replan a single delayed agent by tracking and using the temporal flexibility of other agents while avoiding cascading delays. This flexibility is the maximum delay that the agent can take without changing the order with agents other than the initially delayed agent, or further delaying other agents. Our algorithm, FlexSIPP, precomputes all possible plans for the delayed agent and returns the changes to the other agents within the given scenario. We demonstrate our method in a real-world case study of replanning trains in the densely-used Dutch railway network and in the MovingAI MAPF benchmark set. Our experiments show that FlexSIPP provides effective solutions relevant to real-world adjustments, and within a reasonable timeframe.}
 }
 @preprint{Hinnerichs2025Herb,
   title={Herb.jl: A Unifying Program Synthesis Library},
