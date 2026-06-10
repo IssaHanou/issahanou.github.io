@@ -10,7 +10,7 @@
     - name: Email
       value: i.k.hanou@tudelft.nl
     - name: Summary
-      value: A Dutch-born scientist in Computer Science, working on sustainable and  effective mobility using AI Planning.
+      value: A Dutch-born scientist in Computer Science, working on sustainable and effective mobility using AI Planning.
 - title: Languages
   type: list_groups
   contents:
@@ -62,11 +62,11 @@
     - title: Local Organization 
       institution: BNAIC/BeNeLearn
       year: 2023
-      description: BNAIC is a local, three-day AI conference for researchers in the Netherlands, Belgium and Luxembourg. I am part of the local organization team. 
+      description: BNAIC is a local, three-day AI conference for researchers in the Netherlands, Belgium and Luxembourg. I was part of the local organization team. 
     - title: General Board member
       institution: Haarlems Accordeon Orkest, Haarlem, The Netherlands
       year: 2021-2024
       description: 
       - Together with four other board members, I organized concerts, rehearsals, and trips for the orchestra.
-      - With the music committee, I am in charge of selecting new works to play and creating set lists for concerts.
+      - With the music committee, I was in charge of selecting new works to play and creating set lists for concerts.
       - I built and currently maintain the website of the orchestra.
