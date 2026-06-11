@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I presented my [MSc thesis](/publication#Hanou2022Applying) at BNAIC in Mechelen.
+I presented my [MSc thesis](/publications#Hanou2022Applying) at BNAIC in Mechelen.
