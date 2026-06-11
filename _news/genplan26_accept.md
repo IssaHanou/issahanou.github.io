@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "[Revisiting Landmarks: How To Learn from Previous Plans to Generalize over Problem Instances](\publications#Hanou2026GenPlan)" together with Sebastijan Dumancic, and Mathijs de Weerdt was accepted at the Generalization in Planning (GenPlan) Workshop, hosted at the ICAPS26, which I'll present in Dublin on June 27. 
+Our paper "[Revisiting Landmarks: How To Learn from Previous Plans to Generalize over Problem Instances](\publications#Hanou2026GenPlan)" together with Sebastijan Dumancic, and Mathijs de Weerdt was accepted at the Generalization in Planning (GenPlan) Workshop, hosted at the ICAPS26, which I'll present in Dublin on June 28. 
