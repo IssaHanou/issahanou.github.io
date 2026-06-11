@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I attended the ProbAI summer school in Trondheim.
+I attended the ProbAI summer school in Trondheim where I presented [a poster](/assets/pdf/poster_probai23.pdf) on our work for train planning.

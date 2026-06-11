@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "[Precomputing Multi-Agent Path Replanning Using Temporal Flexibility](\publications#Hanou2026FlexSIPP)" together with Eric Kemmeren, Devin Wild Thomas, and Mathijs de Weerdt was accepted at the International Symposium on Combinatorial Search (SoCS26), which I'll present in Bremerhaven in August. 
+Our paper "[Precomputing Multi-Agent Path Replanning Using Temporal Flexibility](/publications#Hanou2026FlexSIPP)" together with Eric Kemmeren, Devin Wild Thomas, and Mathijs de Weerdt was accepted at the International Symposium on Combinatorial Search (SoCS26), which I'll present in Bremerhaven in August. 
