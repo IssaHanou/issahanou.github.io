@@ -76,41 +76,49 @@
     - any-start-time planning
     - safe interval path planning
   abstract: "During the daily operation of the railway network, ProRail is responsible for handling delays and planning ad hoc train movements. Train handling documents aid the traffic controllers in common situations. But when multiple trains are delayed, and these documents do not apply, they are left to their own expertise. In this thesis, we introduce FlexSIPP, an algorithm to plan or replan agents in an existing multi-agent plan. FlexSIPP builds upon the prior works of any-start-time safe interval path planning, where the current routes of the agents are seen as moving obstacles. FlexSIPP loosens this restriction by introducing flexibility: the ability for an agent to delay its plan while minimally impacting other agents. This algorithm is evaluated on the Dutch railway network. By finding tipping points, that is, the moment it is better to switch the order of two trains on the track to minimize the delay, we can recreate train handling documents. We show that FlexSIPP finds the same solutions within a minute in the case that no other trains are delayed. This implies that FlexSIPP is also able to aid traffic controllers in the case that other trains are delayed."
-- topic: Online Task and Motion Planning for Multiple Manipulators
+- topic: Fast Task and Motion Planning for Multiple Manipulators
   name: Kees Blok
   type: MSc theses
   cosupervisors: Mathijs de Weerdt
   id: Blok2026
-  status: inprogress
+  status: finished
   start: 2025-11-10
-  end: 2026-09-07
-  year: 2026  
-  post_name: False
+  end: 2026-06-19
+  year: 2026
+  post_name: True
+  link: https://resolver.tudelft.nl/uuid:1ed72541-5610-471f-99f3-78a8fa613b87
   keywords:
     - task and motion planning
     - multi-agent planning
     - online planning
+    - real-time
     - manipulators
     - robotics
     - multi-agent pathfinding
+    - collision detection
+  abstract: "Industrial manipulators are increasingly used in manufacturing and packaging systems where the exact tasks are not known in advance. In such settings, task and motion planning (TAMP) must be performed online, while the resulting plans should maximize throughput and satisfy velocity, acceleration, and higher-order derivative constraints. This is especially challenging when multiple fast manipulators operate close together in a shared workspace, resulting in additional constraints on trajectories, task allocations, and orderings to avoid collisions. Existing multi-agent TAMP methods often rely on discretized space and time, resulting in trajectories that cannot be executed directly by manipulators. On the other hand, continuous trajectory optimization methods can generate smooth trajectories, but they do not address task allocations and orderings, and either consider a single manipulator and/or are too slow for online planning. We present a soft real-time TAMP framework for multiple fast manipulators. Tasks are generated from product and place positions, assigned to robots, and converted into dynamically feasible trajectories. Experiments compare polygonal bang-bang, polygonal smoothstep, and smooth optimized Bézier trajectories with continuity up to acceleration and jerk. The results show that the polygonal trajectories are the fastest to compute, while Bézier optimization reduces the makespan at the cost of increased planning time. Additionally, bang-bang initialization gives faster convergence than smoothstep and is thus a good starting point for fast Bézier optimization. The makespan improvement reduces per iteration, allowing for a relatively large improvement in minimal time. The proposed assignment methods are shown to be feasible for online planning resulting in few potential collisions, and a custom convex-hull-based collision checker is compared to a sample-based collision checker on the tradeoff between conservativeness and runtime."
   abstract: ""
-- topic: Multi-Agent Pathfinding for the Train Unit Shunting Problem
+- topic: Lagrangian Relaxation Methods for the Train Unit Shunting Problem
   name: Thomas Verwaal
   type: MSc theses
   cosupervisors: Mathijs de Weerdt
   id: Verwaal2026
-  status: inprogress
+  status: finished
   start: 2025-11-10
-  end: 2026-09-07
+  end: 2026-06-12
   year: 2026  
-  post_name: False
+  post_name: True
+  link: https://resolver.tudelft.nl/uuid:9c66f842-ac91-41aa-a651-31febc7f3ba5
   keywords:
     - multi-agent pathfinding
     - train shunting
     - TUSP
     - railway planning
-    - lagrangian relaxation
+    - (augmented) lagrangian relaxation
     - mixed integer linear programming
+    - alternating direction method of multipliers
+    - robust-rail
+  abstract: "Rail transport is one of the most used forms of public transport, and apart from the timetable, effective shunting operations are an important part of operational efficiency and robustness. Trains not used in the timetable are parked at shunting yards, where shunting operations take place, which take 10-50% of trains total transit time. Efficient planning of these operations is challenging due to relatively small yards that cannot be expanded easily, since they are located in urban areas. The management of trains outside of the timetable is an NP-hard problem known as the Train Unit Shunting Problem (TUSP). The TUSP concerns the matching, routing, and parking of arriving and departing trains. The current state-of-the-art Local Search (LS) approach is non-deterministic and struggles with the routing aspect of the TUSP. In this thesis, the TUSP is approached from a routing perspective with a deterministic algorithm. We apply Lagrangian Relaxation (LR) methods to the TUSP such that the problem can be split into per-train shortest path problems. Standard LR struggles with solving the TUSP due to symmetry in the trains and in the shunting yards. To address the symmetry, the approach is extended with Augmented Lagrangian Relaxation (ALR) and solved with the Alternating Direction Method of Multipliers (ADMM). Experimental results show that ADMM can be used to solve a somewhat simplified version of the TUSP and outperforms the LS approach on scenarios in which the arrival and departure of trains are more time restricted, i.e., smaller time windows. On larger time windows and for more trains, the LS outperforms the ADMM approach."
 - topic: "Landmarks in planning"
   cosupervisors: Sebastijan Dumancic
   type: BSc theses
