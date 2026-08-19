@@ -6,6 +6,7 @@
   booktitle={9th Workshop on Generalization in Planning (GenPlan) at ICAPS'26},
   extended={https://arxiv.org/abs/2508.21564},
   code={https://doi.org/10.5281/zenodo.20591819},
+  poster={poster_DCsocs26.pdf}
   abbr={ICAPS},
   pdf={genplan26.pdf},
   abstract={Landmarks have greatly improved AI planning by identifying the must-reach states for any plan that solves an instance. However, as landmarks are ground atoms, they are instance- and object-specific, and thus do not capture any general knowledge about the problem domain. Moreover, landmark graphs often contain repetitive chains of landmarks, thereby increasing graph size. We propose generalized landmarks that describe general intermediate goals for an entire problem domain. Generalized landmarks extend beyond the predicates of a domain by using state functions, which are independent of a specific object and capture repetition. A directed generalized landmark graph is constructed that includes loops to identify repetitive subplans. We give examples of hand-constructed graphs and discuss our approach to learning them from a small set of solved instances. To use generalized landmarks for planning, we present a simple counting heuristic and show how it exploits loop behavior and local landmark guides to find plans more efficiently.}
@@ -17,7 +18,9 @@
   month={6},
   booktitle={Proceedings of the Nineteenth International Symposium on Combinatorial Search},
   extended={https://arxiv.org/abs/2601.04884},
+  html={https://doi.org/10.1609/socs.v19i1.43072},
   code={https://doi.org/10.5281/zenodo.20543671},
+  slides={slides_flexsipp.pdf},
   abbr={SoCS},
   selected={true},
   pdf={socs26.pdf},
@@ -44,6 +47,8 @@
   primaryClass={cs.AI},
   month={8},
   html={https://arxiv.org/abs/2508.21564},
+  pdf={landmarks2025.pdf},
+  code={https://doi.org/10.5281/zenodo.16940543},
   abbr={arXiv},
   abstract={We propose a new framework for discovering landmarks that automatically generalize across a domain. These generalized landmarks are learned from a set of solved instances and describe intermediate goals for planning problems where traditional landmark extraction algorithms fall short. Our generalized landmarks extend beyond the predicates of a domain by using state functions that are independent of the objects of a specific problem and apply to all similar objects, thus capturing repetition. Based on these functions, we construct a directed generalized landmark graph that defines the landmark progression, including loop possibilities for repetitive subplans. We show how to use this graph in a heuristic to solve new problem instances of the same domain. Our results show that the generalized landmark graphs learned from a few small instances are also effective for larger instances in the same domain. If a loop that indicates repetition is identified, we see a significant improvement in heuristic performance over the baseline. Generalized landmarks capture domain information that is interpretable and useful to an automated planner. This information can be discovered from a small set of plans for the same domain.},
 }
@@ -58,7 +63,14 @@
   abstract={Research in railway operations has mostly focused on operations research methods. However, these real-world problems have a state-based nature, which makes them very suitable for AI models, such as the Multi-Agent Pathfinding problem, where agents move in a grid and need to be routed from their start to their goal location without colliding with each other. The core aspect of problems like train shunting and train dispatching is routing, which is often not the main focus of current mathematical formulations. Therefore, we apply the state-of-the-art algorithms to the railway problems of shunting and dispatching and study their usability for routing trains. The Multi-Agent Pathfinding problem is often solved with one of two algorithms: conflict-based search (a two-stage algorithm detecting conflicts between individual paths and using A* search to find new conflict-free paths), and branch-cut-and-price (a linear program adding cuts (row generation) based on problem-specific constraints, and finding new paths to be selected that satisfy all constraints using a pricer). We modify these algorithms to include more railway details. First, we allow for the matching of train units (i.e., ensure the necessary train units of a certain type are available for departure) by specifying goals for agent (type) groups instead of single agent goals. Moreover, we add goal sequences for servicing stations and agents of different sizes, and we study specific aspects of the railway infrastructure to exploit in the algorithm. Finally, we show the use of Multi-Agent Pathfinding solvers in different railway settings and analyze the conditions for success.},
   poster={poster_raildresden25.pdf}
 }
-
+@misc{Hanou2024MultiAgent,
+  author={Issa Hanou and Mathijs De Weerdt},
+  abbr={AI4RAILS},
+  year={2024},
+  month={9},
+  venue={AI4RAILS workshop at the International Conference on Optimization and Decision Science - Badesi, Sardinia, Italy},
+  abstract={The Train Unit Shunting Problem (TUSP) is an NP-hard problem with different sub-problems. These are heavily intertwined as the routing depends on the track assignment, which depends on the matching of arriving and departing train units. We model the routing sub-problem as a Multi-Agent Path Finding (MAPF) problem, which finds routes for a set of agents (trains) given their starting and goal locations. When types of train units are used to group agents into teams, we can assign their goal locations dynamically. Prior work has looked at constraints from the arrival and departure orders to narrow down the track assignment. This way, we can integrate the solving of the routing and matching sub-problems, and also allow trains to reroute to a different parking track than their originally assigned track. State-of-the-art MAPF approaches are Constrained-Based Search and the Branch-cut-and-price algorithm, which add specific algorithmic insights for multi-agent routing problems. Branch-cut-and-price is an optimal algorithm for creating conflict-free solutions to MAPF instances. The method combines search heuristics and Mixed Integer Linear Programming (MILP), proposing specific cuts for the MAPF problem. The TUSP is currently solved with MILP formulations, extended with some specific heuristics and constraints. Clearly, similarities between the MAPF approaches and state-of-the-art TUSP solvers can be identified. The question remains which insights from each method can be beneficial to the other? As MAPF solutions are guaranteed to be conflict-free and often also (close to) optimal, this could provide benefits over MILP formulations. The latter does not offer the same guarantees while an optimality gap remains. Though MAPF solutions have proven very efficient for many agents, the main challenge arises from the tight and constricted infrastructure as seen in a railway network. Here, MILP insights could provide benefits to the MAPF solvers.},
+}
 @Inproceedings{Hanou2024replanning,
   author           = {Issa Hanou* and Devin Wild Thomas* and Wheeler Ruml and Mathijs De Weerdt},
   title            = {Replanning in Advance for Instant Delay Recovery in Multi-Agent Applications: Rerouting Trains in a Railway Hub},
@@ -71,6 +83,7 @@
   },
   abbr             = {ICAPS},
   pdf              = {icaps24.pdf},
+  slides           = {slides_maeder.pdf},
   html             = {https://ojs.aaai.org/index.php/ICAPS/article/view/31483},
   code             = {https://github.com/dwthomas/delay-replanning},
   selected         = {true},
