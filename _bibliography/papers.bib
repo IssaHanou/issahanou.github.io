@@ -66,11 +66,14 @@
 }
 @misc{Hanou2024MultiAgent,
   author={Issa Hanou and Mathijs De Weerdt},
+  title={Applying Multi-Agent Path Finding to the Train Unit Shunting Problem: A Comparison with Mixed Integer Linear Programming},
   abbr={AI4RAILS},
   year={2024},
   month={9},
   venue={AI4RAILS workshop at the International Conference on Optimization and Decision Science - Badesi, Sardinia, Italy},
   abstract={The Train Unit Shunting Problem (TUSP) is an NP-hard problem with different sub-problems. These are heavily intertwined as the routing depends on the track assignment, which depends on the matching of arriving and departing train units. We model the routing sub-problem as a Multi-Agent Path Finding (MAPF) problem, which finds routes for a set of agents (trains) given their starting and goal locations. When types of train units are used to group agents into teams, we can assign their goal locations dynamically. Prior work has looked at constraints from the arrival and departure orders to narrow down the track assignment. This way, we can integrate the solving of the routing and matching sub-problems, and also allow trains to reroute to a different parking track than their originally assigned track. State-of-the-art MAPF approaches are Constrained-Based Search and the Branch-cut-and-price algorithm, which add specific algorithmic insights for multi-agent routing problems. Branch-cut-and-price is an optimal algorithm for creating conflict-free solutions to MAPF instances. The method combines search heuristics and Mixed Integer Linear Programming (MILP), proposing specific cuts for the MAPF problem. The TUSP is currently solved with MILP formulations, extended with some specific heuristics and constraints. Clearly, similarities between the MAPF approaches and state-of-the-art TUSP solvers can be identified. The question remains which insights from each method can be beneficial to the other? As MAPF solutions are guaranteed to be conflict-free and often also (close to) optimal, this could provide benefits over MILP formulations. The latter does not offer the same guarantees while an optimality gap remains. Though MAPF solutions have proven very efficient for many agents, the main challenge arises from the tight and constricted infrastructure as seen in a railway network. Here, MILP insights could provide benefits to the MAPF solvers.},
+  html={https://research.tudelft.nl/en/publications/applying-multi-agent-path-finding-to-the-train-unit-shunting-prob/},
+  slides={slides_AI4RAILS-MAPF.pdf}
 }
 @Inproceedings{Hanou2024replanning,
   author           = {Issa Hanou* and Devin Wild Thomas* and Wheeler Ruml and Mathijs De Weerdt},
