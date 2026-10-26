@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-I attended [SoCS26](https://socs26.search-conference.org/) in Bremerhaven, Germany, where I presented our paper "[Precomputing Multi-Agent Path Replanning using Temporal Flexibility](\publications#Hanou2026FlexSIPP)". This was my first time at SoCS and I enjoyed the fruitful discussions and interesting sessions!
+I attended [SoCS26](https://socs26.search-conference.org/) in Bremerhaven, Germany, where I presented our paper "[Precomputing Multi-Agent Path Replanning using Temporal Flexibility](\publications#Hanou2026FlexSIPP)". I also presented [a poster on generalized landmarks](/assets/pdf/poster_DCsocs26.pdf) at the DC. This was my first time at SoCS and I enjoyed the fruitful discussions and interesting sessions!
 
